@@ -12,8 +12,8 @@ export function HugCard({ onHug = () => { }, onPet = () => { } }: HugCardProps) 
         <Card title="ALERT">
             <div className={mainTextStyle}>루마가 당신에게 바라는 게 있어보이네요.</div>
             <div className={buttonBox}>
-                <Button onClick={onHug}>안아주기</Button>
                 <Button onClick={onPet}>쓰다듬기</Button>
+                <Button onClick={onHug}>안아주기</Button>
             </div>
         </Card>
     )
