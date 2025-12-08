@@ -18,8 +18,8 @@ export function Stats({ stats }: StatsProps) {
 function Stat({ name, value }: { name: string, value: string }) {
     return (
         <div className={wrapperDiv}>
-            <span className={lightName}>{name}</span>
-            <span className={boldValue}>{value}</span>
+            <div className={lightName}>{name}</div>
+            <div className={boldValue}>{value}</div>
         </div>
     )
 }

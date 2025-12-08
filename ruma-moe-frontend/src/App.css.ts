@@ -6,6 +6,11 @@ export const mainStyle = style({
     padding: vars.spacing.xl,
     justifyContent: 'space-between',
     display: 'flex',
+    '@media': {
+        'screen and (min-width: 768px)': {
+            flexDirection: 'column',
+        }
+    }
 })
 
 export const leftBox = style({
