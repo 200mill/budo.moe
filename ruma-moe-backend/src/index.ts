@@ -59,6 +59,10 @@ app.register(async (app) => {
 
 const incSchema = z.object({ name: z.string() })
 
+app.get('/health', () => {
+    return {}
+})
+
 app.get('/metrics', async () => {
     return await registry.metrics()
 })
