@@ -10,15 +10,15 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /$2
     cert-manager.io/cluster-issuer: "letsencrypt-prod"
   name: web-ingress
-  namespace: ruma-moe
+  namespace: budo-moe
 spec:
   tls:
     - hosts:
-        - ruma.moe
-      secretName: ruma-tls
+        - budo.moe
+      secretName: budo-tls
   ingressClassName: nginx
   rules:
-    - host: ruma.moe
+    - host: budo.moe
       http:
         paths:
         - path: /api(/|$)(.*)

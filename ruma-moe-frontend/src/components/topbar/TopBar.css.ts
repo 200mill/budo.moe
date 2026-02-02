@@ -14,3 +14,7 @@ export const text = style({
     fontSize: vars.fontSize.sm,
     fontWeight: vars.fontWeight.medium,
 });
+
+export const image = style({
+    borderRadius: vars.borderRadius.sm,
+});

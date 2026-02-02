@@ -2,12 +2,12 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: prometheus-config
-  namespace: ruma-moe
+  namespace: budo-moe
 data:
   prometheus.yml: |
     global:
       scrape_interval: 1s
     scrape_configs:
-      - job_name: 'ruma-moe'
+      - job_name: 'budo-moe'
         static_configs:
           - targets: ['backend:8080']

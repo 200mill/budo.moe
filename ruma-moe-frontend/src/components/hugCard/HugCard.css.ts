@@ -8,6 +8,6 @@ export const mainTextStyle = style({
 
 export const buttonBox = style({
     display: 'flex',
-    gap: vars.spacing.xs,
+    gap: vars.spacing.md,
     marginTop: vars.spacing.md,
 });

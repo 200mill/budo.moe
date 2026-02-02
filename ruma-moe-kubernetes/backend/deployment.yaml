@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: backend
-  namespace: ruma-moe
+  namespace: budo-moe
 spec:
   replicas: 1
   selector:
@@ -16,7 +16,7 @@ spec:
       containers:
         - name: backend
           imagePullPolicy: Always
-          image: registry.walruslab.org/pub/ruma-moe-backend
+          image: registry.walruslab.org/pub/budo-moe-backend
           envFrom:
             - configMapRef:
                 name: backend-config

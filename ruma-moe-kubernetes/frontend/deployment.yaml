@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: frontend
-  namespace: ruma-moe
+  namespace: budo-moe
 spec:
   replicas: 1
   selector:
@@ -16,4 +16,4 @@ spec:
       containers:
         - name: frontend
           imagePullPolicy: Always
-          image: registry.walruslab.org/pub/ruma-moe-frontend
+          image: registry.walruslab.org/pub/budo-moe-frontend

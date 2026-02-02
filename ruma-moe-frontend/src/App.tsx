@@ -43,7 +43,7 @@ function App() {
                         {' '}
                         이곳은 <span className={pinkText}>
                             귀여운
-                        </span> 루마의 <span className={redText}>은밀한</span>{' '}
+                        </span> 부도의 <span className={redText}>은밀한</span>{' '}
                         사이트입니다.{' '}
                     </div>
 
@@ -53,7 +53,7 @@ function App() {
                     </div>
                 </div>
 
-                <img src={ruma} alt="rumazako" className={image} />
+                <img src={ruma} alt="rumazako" className={image} width="915px" height="650px" />
             </main>
         </>
     );

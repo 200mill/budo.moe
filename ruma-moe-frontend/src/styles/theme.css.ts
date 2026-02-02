@@ -2,11 +2,12 @@ import { createGlobalTheme } from '@vanilla-extract/css';
 
 export const vars = createGlobalTheme(':root', {
     color: {
-        bgPrimary: '#F45601',
-        fgPink: '#FC85F6',
+        bgPrimary: '#3FAB30',
+        fgPink: '#C71818',
         fgText: '#ffffff',
         borderColor: '#515151',
         bgMain: '#252525',
+        bgSecondary: '#303030',
     },
     borderWidth: {
         sm: '2px',
@@ -23,6 +24,7 @@ export const vars = createGlobalTheme(':root', {
     borderRadius: {
         lg: '24px',
         md: '20px',
+        sm: '12px',
         xl: '36px',
     },
     fontSize: {

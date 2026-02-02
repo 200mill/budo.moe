@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: prometheus-pvc
-  namespace: ruma-moe
+  namespace: budo-moe
 spec:
   accessModes:
     - ReadWriteOnce
